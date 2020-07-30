@@ -41,6 +41,11 @@ h6 {
   color: #e9cd45;
 }
 
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
 .project_details {
   width: 500px;
 }
