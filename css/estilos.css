@@ -12,14 +12,33 @@ h6 {
   font-weight: normal;
 }
 
-.main {
-  height: 300px;
+.header {
+  background-color: #022636;
+  color: white;
 }
 
-h1 {
+.menu_link {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  height: 300px;
+  background-image: url('../images/Criteria.jpg');
+  background-color: #022636;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.main_title {
   font-size: 40px;
   line-height: 1.5em;
   letter-spacing: -.2px;
+  color: white;
+}
+
+.main_title strong {
+  color: #e9cd45;
 }
 
 .project_details {
