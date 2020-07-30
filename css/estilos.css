@@ -12,8 +12,20 @@ h6 {
   font-weight: normal;
 }
 
+.main {
+  height: 300px;
+}
+
 h1 {
   font-size: 40px;
   line-height: 1.5em;
   letter-spacing: -.2px;
+}
+
+.project_details {
+  width: 500px;
+}
+
+.project_image_container {
+  width: 500px;
 }
