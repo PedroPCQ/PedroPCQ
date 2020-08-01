@@ -13,14 +13,46 @@ h6 {
   font-weight: normal;
 }
 
+figure {
+  margin: 0;
+}
+
 .header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
   background-color: #022636;
   color: white;
+}
+
+.logo_image {
+  height: 90px;
+  width: 90px;
+}
+
+.menu {
+  height: inherit;
+}
+
+.menu ol {
+  display: flex;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu ol li {
+  height: inherit;
 }
 
 .menu_link {
   color: white;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .main {
@@ -30,10 +62,6 @@ h6 {
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
-}
-
-.menu ol {
-  margin: 0;
 }
 
 .main_title {
