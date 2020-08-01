@@ -30,7 +30,13 @@ h6 {
   background-repeat: no-repeat;
   background-position-x: right;
 }
+
+.menu ol {
+  margin: 0;
+}
+
 .main_title {
+  margin: 0;
   font-size: 40px;
   line-height: 1.5em;
   letter-spacing: -.2px;
@@ -44,6 +50,7 @@ h6 {
 .project {
   border: 1px solid gray;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project_details {
