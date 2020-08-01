@@ -80,19 +80,51 @@ figure {
 
 .portfolio {
   background-color: #fafafa;
+  padding: 20px;
+}
+
+.portfolio_title {
+  color: #e9cd45;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border: 1px solid gray;
   border-radius: 10px;
-  margin: 10px;
   margin-bottom: 15px;
   padding: 20px;
   background-color: white;
 }
 
+.project strong {
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .project_details {
   width: 500px;
+}
+
+.project_title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project_tecnologies,
+.project_date,
+.project_link {
+  margin: 10px 0;
+}
+
+.project_description {
+  font-size: 20px;
 }
 
 .project_image_container {
