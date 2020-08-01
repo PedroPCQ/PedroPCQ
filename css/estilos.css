@@ -131,6 +131,39 @@ figure {
   width: 500px;
 }
 
+.experiencies {
+  display: flex;
+}
+
+.experiencies_title {
+  margin-left: 20px;
+}
+
+.experience {
+  margin: 20px;
+  width: 480px;
+  border-radius: 10px;
+  background-color: #f4fbff;
+
+}
+
+.experience_image {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.experience_details {
+  margin: 20px 40px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.experience_description {
+  text-align: left;
+}
+
 .footer {
   display: flex;
   align-items: center;
