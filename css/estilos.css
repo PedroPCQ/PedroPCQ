@@ -25,6 +25,16 @@ figure {
   color: white;
 }
 
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
 .logo_image {
   height: 120px;
   width: 120px;
@@ -58,12 +68,13 @@ figure {
 .main {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 300px;
-  background-image: url('../images/Criteria.jpg');
   background-color: #022636;
-  background-size: 500px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
+}
+
+.main_image {
+  object-fit: cover;
 }
 
 .main_title {
@@ -133,6 +144,7 @@ figure {
 
 .experiencies {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .experiencies_title {
@@ -162,6 +174,42 @@ figure {
 
 .experience_description {
   text-align: left;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9cd45;
+  color: white;
+  height: 150px;
+}
+
+.contact_email {
+  border-color: gray;
+  padding: 10px 20px 10px 25px;
+  border-radius: 5px;
+}
+
+.contact_button {
+  display: block;
+  padding: 10px 0;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.social {
+
+}
+
+.social_link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
 }
 
 .footer {
