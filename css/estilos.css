@@ -19,6 +19,7 @@ figure {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   height: 120px;
   background-color: #022636;
@@ -26,7 +27,7 @@ figure {
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -67,6 +68,7 @@ figure {
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: 300px;
@@ -105,6 +107,7 @@ figure {
 
 .project {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   border: 1px solid gray;
@@ -178,6 +181,7 @@ figure {
 
 .contact {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   background-color: #e9cd45;
@@ -214,6 +218,7 @@ figure {
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #1b2127;
   color: white;
