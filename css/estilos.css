@@ -28,6 +28,7 @@ figure {
 
 .container {
   max-width: 1000px;
+  flex: 1;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;

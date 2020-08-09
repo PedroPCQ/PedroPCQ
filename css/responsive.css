@@ -3,7 +3,26 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    display: block;
+    height: auto;
+  }
 
+  .header ol {
+    display: initial;
+  }
+
+  .header ol li {
+    height: 50px;
+  }
+
+  .header a {
+    justify-content: center;
+  }
+
+  .header .logo {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
