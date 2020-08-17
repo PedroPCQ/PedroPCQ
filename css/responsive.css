@@ -23,10 +23,51 @@
   .header .logo {
     text-align: center;
   }
+
+  .project {
+    display: block;
+  }
+
+  .project_image_container {
+    width: auto;
+    text-align: center;
+  }
+
+  .project_details {
+    width: auto;
+    font-size: 16px;
+  }
+
+  .project_link, .project_date, .project_link {
+    margin: .4em 0;
+  }
+
+  .project_title {
+    font-size: 1.5em;
+    margin-bottom: .3em;
+  }
+
+  .project_link {
+    font-size: 1em;
+  }
+
+  .project_tecnologies {
+    font-size: .7em;
+  }
+
+  .project_date {
+    font-size: 1em;
+  }
+
+  .project_description {
+    font-size: .8em;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
+  .project_details {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 320px) {
