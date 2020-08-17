@@ -62,11 +62,25 @@
   .project_description {
     font-size: .8em;
   }
+
+  .experience {
+    width: auto;
+    flex-shrink: initial;
+  }
+
+  .experience img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .project_details {
     font-size: 12px;
+  }
+
+  .experience_details {
+    margin: -2em .5em .5em;
+    padding: 1em;
   }
 }
 
