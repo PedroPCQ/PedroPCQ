@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  background-color: #022636;
 }
 
 h1,
@@ -96,11 +97,10 @@ figure {
 }
 
 .portfolio {
-  background-color: #fafafa;
   padding: 20px;
 }
 
-.portfolio_title {
+.portfolio_title, .tecnologies_title, .experiencies_title {
   color: #e9cd45;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -109,7 +109,7 @@ figure {
   margin-bottom: 40px;
 }
 
-.project {
+.project, .stack {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -125,11 +125,11 @@ figure {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.project_details {
+.project_details, stack_details {
   width: 50%;
 }
 
-.project_title {
+.project_title, .stack_title {
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -156,10 +156,6 @@ figure {
 .experiencies {
   display: flex;
   flex-wrap: wrap;
-}
-
-.experiencies_title {
-  margin-left: 20px;
 }
 
 .experience {
