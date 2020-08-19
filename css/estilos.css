@@ -100,7 +100,7 @@ figure {
   padding: 20px;
 }
 
-.portfolio_title, .tecnologies_title, .experiencies_title {
+.portfolio_title, .tecnologies_title, .experiencies_title, .stack_title {
   color: #e9cd45;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -109,7 +109,7 @@ figure {
   margin-bottom: 40px;
 }
 
-.project, .stack {
+.project {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -125,7 +125,7 @@ figure {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.project_details, stack_details {
+.project_details {
   width: 50%;
 }
 
@@ -145,12 +145,35 @@ figure {
   font-size: 20px;
 }
 
-.project_image_container {
+.project_image_container, .stack_image_container {
   width: 50%;
 }
 
-.project_image_container img {
+.project_image_container img, .stack_image_container img {
   max-width: 100%;
+}
+
+.stack {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+}
+
+.stack_details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stack_title {
+  text-align: center;
+}
+
+.stack_image_container {
+  width: 33%;
+  text-align: center;
 }
 
 .experiencies {
