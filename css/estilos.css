@@ -16,7 +16,21 @@ h6 {
 
 figure {
   margin: 0;
-  width: 40%;
+}
+
+.fa-bars {
+  color: #e9cd45;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background: rgba(0,0,0,0.8);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  z-index: 4;
+  display: none !important;
 }
 
 .header {
@@ -241,6 +255,10 @@ figure {
   width: 50px;
   height: 50px;
   margin: 0 10px;
+}
+
+i {
+  color: white;
 }
 
 .footer {
