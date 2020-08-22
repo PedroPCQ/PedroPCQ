@@ -1,10 +1,26 @@
 'use strict'
 
+const tablet = window.matchMedia('screen and (max-width: 768px)');
+
 const menu = document.querySelector ( '.menu' );
 
 const burguerButton = document.querySelector ( '#burguer_button' );
 
-burguerButton.addEventListener( 'click', hideShow );
+tablet.addListener(validation);
+
+function validation ( event ) {
+
+  if ( event.matches ) {
+
+    burguerButton.addEventListener( 'click', hideShow );
+
+  } else {
+
+    burguerButton.removeEventListener( 'click', hideShow );
+
+  }
+  
+}
 
 function hideShow () {
 
@@ -17,5 +33,5 @@ function hideShow () {
     menu.classList.add ( 'menu_active' );
 
   }
-  
+
 }
