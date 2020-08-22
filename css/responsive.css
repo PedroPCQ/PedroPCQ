@@ -53,6 +53,11 @@
     margin-bottom: .5em;
   }
 
+  .logo_image {
+    height: 250px;
+    width: 250px;
+}
+
   .menu {
     position: fixed;
     background-color: rgba(233, 205, 69, .9);
