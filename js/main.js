@@ -19,8 +19,10 @@ function validation ( event ) {
     burguerButton.removeEventListener( 'click', hideShow );
 
   }
-  
+
 }
+
+validation ( tablet );
 
 function hideShow () {
 

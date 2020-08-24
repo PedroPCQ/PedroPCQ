@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .container {
     padding: 0 1em;
   }
@@ -28,6 +28,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .portfolio_title {
+    font-size: 1.2em;
+    margin: .5em 0;
+  }
+
   .fa-bars {
     display: block !important;
   }
@@ -116,7 +121,7 @@
   }
 
   .project_description {
-    font-size: .8em;
+    font-size: 1em;
   }
 
   .experience {
@@ -134,7 +139,7 @@
     font-size: 1.5em;
   }
   .project_details {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .experience_details {
