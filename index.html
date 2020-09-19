@@ -3,184 +3,451 @@
   <head>
     <meta charset = "UTF-8" >
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
-    <title>Pedro Calvo Quesada</title>
-    <link rel = "apple-touch-icon" sizes = "180x180" href = "images/favicon_io/apple-touch-icon.png" >
-    <link rel = "icon" type = "image/png" sizes = "32x32" href = "images/favicon_io/favicon-32x32.png" >
-    <link rel = "icon" type = "image/png" sizes = "16x16" href = "images/favicon_io/favicon-16x16.png" >
-    <link rel = "manifest" href = "images/favicon_io/site.webmanifest" >
-    <link href = "https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap" rel = "stylesheet" >
-    <link rel = "stylesheet" href = "css/estilos.css" >
-    <link rel = "stylesheet" href = "css/responsive.css" >
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge" >
+    <title>Web Portfolio</title>
+    <link type = "text/css" rel = "stylesheet" href = "css/styles.css" >
+    <link type = "text/css" rel = "stylesheet" href = "css/dark-theme.css" >
+    <link type = "text/css" class = "alternate-style" title = "red" rel = "stylesheet" href = "css/skins/red.css" >
+    <link type = "text/css" class = "alternate-style" title = "blue" rel = "stylesheet" href = "css/skins/blue.css" disabled >
+    <link type = "text/css" class = "alternate-style" title = "orange" rel = "stylesheet" href = "css/skins/orange.css" disabled >
+    <link type = "text/css" class = "alternate-style" title = "yellow" rel = "stylesheet" href = "css/skins/yellow.css" disabled >
+    <link type = "text/css" class = "alternate-style" title = "green" rel = "stylesheet" href = "css/skins/green.css" disabled >
+    <link type = "text/css" rel = "stylesheet" href = "css/style-switcher.css" >
+    <link type = "text/css" rel = "stylesheet" href = "css/responsive.css" >
   </head>
 
   <body>
-    <i class="fas fa-bars fa-3x" id = "burguer_button" ></i>
+    <div class = "preloader" >
+      <div class = "loader" >
 
-    <header class = "header" >
-      <div class = "container" >
-        <figure class = "logo" >
-          <img class = "logo_image" src = "images/logo.jpg" alt = "logo" >
-        </figure>
-        <nav class = "menu" >
-          <ol>
-            <li>
-              <a class = "menu_link" href = "#portafolio" >Portafolio</a>
-            </li>
-            <li>
-              <a class = "menu_link" href = "#tecnologias" >Tecnologías</a>
-            </li>
-            <li>
-              <a class = "menu_link" href = "#experiencias" >Experiencias</a>
-            </li>
-            <li>
-              <a class = "menu_link" href = "#contacto" >¿Hablamos?</a>
-            </li>
-          </ol>
-        </nav>
       </div>
-    </header>
-
-    <section class = "main" >
-      <div class = "container" >
-        <h1 class = "main_title" >Hola Mundo! Soy <strong>Pedro Calvo Quesada</strong>
-          <br>desarrollador <strong>Javascript</strong> con
-          <br>pasión por la <strong>programación web</strong>
-        </h1>
-        <figure class = "main_image_container" >
-          <img class = "main_image" src = "https://i.postimg.cc/qR7V6z6h/IMG-20190711-112145.jpg" width = "500" alt = "Imagen principal del sitio web" >
-        </figure>
-      </div>
-    </section>
-
-    <section id = "portafolio" class = "portfolio" >
-      <div class = "container" >
-        <h2 class = "portfolio_title" >Portafolio (Proyectos Destacados)</h2>
-        <article class = "project" >
-          <div class = "project_details" >
-            <h3 class = "project_title" >Nombre del proyecto</h3>
-            <h6 class = "project_tecnologies" >Tecnologías que usa el proyecto</h6>
-            <p class = "project_date" ><small><strong>Fecha:</strong> dd/mm/yyyy</small></p>
-            <p class = "project_link" ><small><strong>Puedes verlo en:</strong> URL del proyecto</small></p>
-            <p class = "project_description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <figure class = "project_image_container" >
-            <img class = "project_image" src = "#" alt = "Imagen del proyecto" >
-          </figure>
-        </article>
-        <article class = "project" >
-          <div class = "project_details" >
-            <h3 class = "proyect_title" >Nombre del proyecto</h3>
-            <h6 class = "proyect_tecnologies" >Tecnologías que usa el proyecto</h6>
-            <p class = "project_date" ><small><strong>Fecha:</strong> dd/mm/yyyy</small></p>
-            <p class = "project_link" ><small><strong>Puedes verlo en:</strong> URL del proyecto</small></p>
-            <p class = "project_description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <figure class = "project_image_container" >
-            <img class = "project_image" src = "#" alt = "Imagen del proyecto" >
-          </figure>
-        </article>
-      </div>
-    </section>
-
-    <section id = "tecnologias" class = "tecnologies" >
-      <div class = "container" >
-        <h2 class = "tecnologies_title" >Tecnologías</h2>
-        <h3 class = "stack_title" >Frontend</h3>
-        <article class = "stack" >
-          <div class = "stack_details" >
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "https://image.flaticon.com/icons/png/512/919/919827.png" alt = "HTML5" >
-            </figure>
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "https://image.flaticon.com/icons/png/512/919/919826.png" alt = "CSS3" >
-            </figure>
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "https://image.flaticon.com/icons/png/512/919/919828.png" alt = "Javascript" >
-            </figure>
-          </div>
-        </article>
-        <h3 class = "stack_title" >Backend</h3>
-        <article class = "stack" >
-          <div class = "stack_details" >
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA2FBMVEXy8vL///8zMzNtp11moGA7hzljnVf09PT6+vr39/cYGBj39ff7+/v08/Tj4+Ncm1VVo0QmJiYsLCwdHR1wcHCamprQ0NC90bvQ3c+jwZ9PkE3m6uaAgIBurWKkpKRjn11WVla8vLxkZGQAAADZ2dna49lDQ0NqamqPj4+rx6nf3994eHgTExNKSkpjolG2trZaWlo5OTmDsH+4zrafv5yHsoOSuI7J2chUlkZGjkFupGitra0gfR14qXOIiIiEs3lbnkh9sHFLmECMs4sugixxo3CEroOewJY5tbaDAAAQiElEQVR4nNWde0ObyhLANzFmIQQ5QDXxxGt8NNZUja3xVa2enp7e2+//je7u8oZ9wpBw5o9WIwR+zOzM7M4AqLcBGVs2EUwFIcT+px9Y400cHLX67YSMMsmEsFqtnkNrhJaSrcjZGmYbhGPLBC6H2QolOKFl16JLxAYfm7CENZXXqioBCUHw4CGhCMfNjLMqYOYKQwiNxwRIkRCErfAxsQHOrjHhGG708QQ3NtaGhC3zQTA2ItwAX3PGJoSb4WOMWyFsz7/wpL7PqUu4WT4qdWNHPcINDcCi1ByOtQg3r8BIaplqDUJrS3xUaqjRnHAbBpqJuRpNCcdb5aNiqkZDwm2NwLwYqtGMcLsWmohZ/Dch3KaLKYqJpRoQdsFCEzGwVH3CblhoIvqWqk3YLUADRE3C7QeJqoASdhFQ199oEXbHiRZFa7qhQ9glJ1oUHUQNwu4CakUNNWGXAXUQlYTdBtRAVBF2HVCNqCDsPqDS3cgJuxomiiJHlBJ2M9BXRRr6ZYT/FkB5Aif747bP20DqEXZtNiETyUxDTPhvApQhCgm3HSdML7DQoYoItx0n8J5p44PIoYoI2zlvfbHOjpAhoxnh1geh9SEc7SOzzjETwm0PQkoY9P3+q21yJvwMlUu47UGIIsJ+P/x6a9JFxh2KXML2TlxbIkLCeHJgUKzUJdz6IEQZYT+4PtNn5Nkph7ADNpojJIyjq8+6bpVjpxzCdk9dU3KEhDF8R5rXXYewCzZaIuz3/XBf77yqdloh7MiUqUTY75/v6SGqCVs+c12pEI40CStxv0y4/VgfSW3CSgpeJmz3vPWlPmGFqJsqbEJoywg74mZQI0IkI+xGpKDShNAWE3ZHhY0IkZiwOypsRohFhB1SYTNCJCLskAobEmI+YZdU2JAQ8Qm7pMKmhDaPsFMqbEqIeISdUmFjQptD2Na51pOmhKhK2JmMNJLGhFaFsKUzrSuNCXGZsFt+BoAQlQm75WcgCO0SYTvnWV+aE6IiYSfWSPMCQDguEHbNSCEI7QJh/i+4Ga7baO/k4DUJC9vkCXPBEFt7qEFsdJ2pU58RW59xdPBahNj6mK84jnOE2ce2fez3b+vem4adxV8/3hZOzd1tfDm6OGUHr0FIdHN0/iVXxrFzhNlGpxchK2nVenyAM/u92tkZPj/OnBp7Y+u27/eD0dlHcnBzQhsfh3T3o6wDICOMPSkefz4bsa8rbKcrjrPcYTL0vKVtyojHBydhdPDwHdmmhHjMdEPE94+TyvE4JYz2tdH7da6kdYyNhqPrPO2sdmLE4fPwyWg4Egu7yg7uh8c9I0IyAGPdUAm/nkbqsVNC9pv9Gvj5rwzjEaF3hs7sr4SPEhLGt5n+cLTtfb9AFJ6cFAGlhEQ3YWH3yNKj3BRFOSmxkVjJ1e00xEG/f+zkhCJ6z/dIz1TJ6P/ql44dVE5GSEh041d2v36nESEhtImT/jSqfGc8ItSMrrPeWe2UCQmjt9YwVWphlYtbFREh0c0Nb3c/eLXZkzUQczSXPL5ou2NVwweJgH8X+VLE4fOLKjqSwf4uOrgGIdHNB9Hu4c1BosPSACxtdyGNHK4ze6jwZYjD54eZjJGGX8nBVYQ2ugzFlycYfYgI986lXx2MPokjh+Me8vgyQjIcD7FoOOLeKdfCNAnx+LUvvzzXe4zwVnWQYHTJT+RcZ7LDB8whDr3hhKtG0ejXJMwCqFjCU0b4rj6K33+tRg6SolUHIIeQRg5OIie3MBUhDaDqy+NfMsIbneOQYVtkJAPw8YeQr4TIErmCHnku3oDQxvs66g9OGOG11hGC0dVezlRdd7kSK7BCSIbj0s0hWmoLkxFyAihfrinh55F6w4jx+mN2EEdioFxEEjkyh2MfnxsYaIXQOtLTCt2LEJ5qX8zwIEf4HxVgBfHPHOG+kYVWCMtJq/iUTwmh/sGKhNJByCF83gahf0wIK1sL9y4S/mGoxN1tEAZXhLDsSsOTC8HhS4RmSvymRxiK/qBFGF6UPGxw00Pj4kc08pWnMgLCP5S+Jh/2d3UIyYxNFCQ1CP2vt72KjyZTw7wrDa5p9lKcjooJ1XaaV6GakEx8sU0SHd6x1YTB9T4799tClh1i9DFjzjJQfkZUIdRXIlGhijAYRfcfCKZDCkIaruOJPd7PmcFoDx2k3+bf5GYRdFmo/DUVQn1ns6skDL+k0+3KcoOaMIzOHdPEiZhgNqMKD9Bt8l3Be/H5lbZ9VvZBFUJdZ/OnkrC4ZEImjWUGOeEt5SOJ5D1LgKkJxlv4p+g4OZZ/XJo/WEdKQl0l7qoIw9Ni5QT3ypdXRhh8oUtNDl56nhclwOMEyz9Gl8nGtQj1lPhNg7B8cCPCkzHR4NPAGwwGc2+J3OwA/j46akSo5Wy83Q0Q4unzIBJv6WQHCN7Rp2aEOnb6bROE7tSLCYcFwiv0JdmsJqFaibEKt0NIQtBNQ0KNsL89Qr9PPNhFQ8LdZyXitqw08PfpU++/NiP8uburHokbIVw8zxngPPY0cZbTmJCc+Tcl4fMmooWzuPMIo/fy5NADnKc3vaWb1SJkBujpKVFG6JeqQIYR/6THUpqnF2+4dB12gNe0HNGI8Gdkf0pCT5m1+fu5Yh4efzwrbyDN2oJLVl9x8DpZ0svVIhpZaewl9ZyNPPP2o9wSsVLGUXWpUJ6X0jqMTdXIWZxvQhirUNPZqOaH8e2itn3Mq6Oo5oeVBV0QwgRQz9koZ8DM+1mn1UKmDiGd3fJuxMRN4uG3lFBLiRqrGCSCfRIs32qsYgQhp76CUVpNNib8mQFqKNHTW4nirxDpEdIuhddyRRej1CsbE+7mRSNibGQ1sXLvN0Yf6hL+LBCq7XS1mfXS4PqqUO7E2XJBWCG8KiceBcIioEbE8BoRXmuvCAdhPrba6Rx/dPa5bMHlNa88of3P910zJa4ecoS33BVDifj9XFeefSnf3U8aahhhtKDBbZ7BpTWvPCFypvMio9zZrHae8rVu26T8y3xsoWNSWZzLVu5sttbm+4IGKLvQpVEgpD0mu780lbhaReli7uqNBXGPx1caWuzi38raK6LVV+ZWLXQQBqH4UTCFbo4iIU0D73/90lHi6jenIUOQu3D0wX00hrJIHve3jdHn8y8fZd1duSXoMiHt9fpvzlQFEWP1t6Ad09o7Ug9HP7jlNy1h0fp/dmkuDsaoh9CtqgXaTpo6KoSsXejPX1I7Xe3wOzGiq5dvuONJ0S+Wd+/x26Gyvc8/4R7SuVkmHo4cQmKq9jo1VU7EWIm7adhJSivyweiDvAlU3u9Au2QooU5vXlQK4BLStr1/vv/iK3El74hiJ4kFtTzZdCE7MXHTWJSJ6xJSxoObcz4hbax5+c5xNqu/dXq+RZ0x8ZRPvTvf0kn8ixowtayUiW0dCwjZAsK3XyVns9rhdCa6PGReLS+qZGoJL/CkjcI2IdS/mUTWiOk4SzYccwOw2l1KfO/jlOdXoxbvsoXpnxjJAou7p/HPoh1D2l8kFdeZ/e97qsTVHadD2EGH3twrd0fFJ5nPLYzak6kUq9ajXPzrwRGy4Tj4viscgK4zmSfFIY57zeqaGj2tnN3HB1/iTvav+cvDCI2ullQIBHU2K+4AXLxRPrakOeC2uUed2MF1jdsE2O7RzQysmp99yAgh7x51nPsfv6sqom1+0XLtOuLk33ViW6++PMOSCm3nK2WwNiMEvW+NJNicAeguKR+zT2c9H9If+W3uttmDBEtCLL2kfivqgq7/lTzhGCirziY+xkH3Ee7a5Zlqs4OXd++1QVg+ZjIA3xLvQ2JGXGFochOYnsSEcK6mIsRofzOaeT7/ZhUGqsYHg7tO6ghO70ZoSxx3HVlkOfyTPwy5f4AVK7tnphWRqsqZ3UeRQzy5ai6F+57ARTXcMC34iSMHyCmkhG08T0HuMpmUnCy8ZPeuwQ9EmqJJwl4iWaCUzpPrSnb/IbiZOtM3ppw7lQFmyc5TC4jc+4BBxJ08x2etMQGO4iXrLwAWnCMENlNn4tHmK1fvnIlFD+aD+SE4oSW6H7+5UEJvIVAgdh0qbn79HA3aIGzxmQqMcJZ9J2Vy459sNJ2sl8vJFGVXwG2FELf4XIwSobt4fHxcUB7Xnbx5iTykCxrtEFoFQlgzLRNOvbk3pdOKxYs3HyRCcp14ItIOYa9ICGqmVcIBJXRn8zkjo8J+eommO60Qlp9PA5qbCgidOxZDHpeTp6fJ8oX+8siwWiEclwhBlcgndGckhgyfmCsl/7iPNKREw7MFwspzomBXa/iE9NNJyoGdt/kgivNtEFaf9QXpa/iEzppFSZT7eB6ZaRuEvSohoBIFhOTTOZkqOnHB2kWPh4frlgh5z9wD9DUCK11E0+H1YoajrIb+yzaAJ+xxCAF9jShaeIM4WLzcEYe6SBKdFgi5z74EVKIoWkzSeD+nnPP7+Ek98IQ9LiGcEgWEJKd5pGDzLKtZt2OlgmfQwilRREhT8MX6/u4l5WwpWowFhGBKFBKiZJ6xmBy+MZNlIR+aUPgsaDAlCnxp4jrjOeLsnuY4FAyasCckhFIil9B5mr8M8ksVrvNIpvYP8IRYQgikRD7hwot4ss3WXiuEPQkhkBIF45ANu9zaRpqYwhJK340AlJ0KsrZ7uoI6ieYW9N+l14qnKROVfgfJTvmEeBaVue/u4wkiTeLuwKOF6h0lIEoU5TRPXprPRAFxPmBbQRIq3zMD4myEOc3U8wa5dRrvYcZGJSRh5Z1WrbzvSRjxndnyJVlqm98tkzV/QEKN9z1B2GlEmC2HZjkNmTDNFlRmKF1DpY9lBSPk4FQ/ar52yua6WXW3kLWRfIYKzi2Ik9k/1Kq+3nvXmtspDeW56i5T6VRcRZxSr+rdAxBqvjuvuZ26s7QviEY7FtkXgiqGM3uIK8UADoALw/uwsZ3mq7sOeqAq4j9BmTXzySvFBqL/DkuAuJ9Wd99YMX/ItcG4mW/u3YOUuQ3eQwrhT5PqbrSQP+c0O7lJbRSoVcHoXbIgqQ2r7kYz+Xl1FObr2zBtCiISwecg5TZihS/RilOFgT5qBbZHwfSdzkALxCzAs/uPC56EFraB+0z4g1BGCDXfxxSNpDLTzBjb6BWq8W51yEIGZunoQ8STDkDIfi8xoIwQDpFEDi9pH0rDCGjPnoxC8jfARfC4TW++bqfvUgIhJQTsX0iH3qCN3lmRG1UTQlbc4kQuXssHbdQrr1uYEAL38dMRqGrmMxc5oIoQFJF5UWUzn6kIA6EmIWzvKRmO0J2kKkA1IXB7LXSnrBJQg7Brb2QriGIMahJ2GFEDUIuws4jSOGhE2L1XejHRAtQk7Nyr9ajonbkuYfdePSeZTdQk7Nir2bQBDQg75W/UYbAOYYf8jZ6PMSfsymDUt1Bzwk5YqoGF1iDsgKWaWGgdwm37VEMF1iLcqhpNFViPcHtqNFdgXcLtqNHMhTYk3IZT1ZkpQRJu2lRrGWhDwl7t51eYS00DbUq4McYmfA0JictpnxHXiBCAhK3rsZn+QAgJY3t+tb5/yQSAsNdS7MB140NRYAhbMFa74fBLBYqwB+p1gNTHBJCwBwQJideDJuw1hcRgxpkKOGGPOtd6lMDKi6UNQiaWESa2W6Gj0hohlTHBVHHiFuGYtEoYy5iQ2oQ1psVMyCcW+Jjjyf8B9GjAX1hJ3d0AAAAASUVORK5CYII=" alt = "nodejs" width = "316.133px" >
-            </figure>
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "https://image.flaticon.com/icons/png/512/919/919830.png" alt = "php" >
-            </figure>
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" alt = "mysql" >
-            </figure>
-          </div>
-        </article>
-        <h3 class = "stack_title" >Otras tecnologías</h3>
-        <article class = "stack" >
-          <div class = "stack_details" >
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "data:image/png;base64,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" alt = "git" width = "316.133px" >
-            </figure>
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "https://image.flaticon.com/icons/png/512/25/25231.png" alt = "github" >
-            </figure>
-            <figure class = "stack_image_container" >
-              <img class = "stack_image" src = "data:image/png;base64,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" alt = "Wordpress" width = "316.133px" >
-            </figure>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <div class = "container" >
-      <h2 class="experiencies_title">Experiencias</h2>
     </div>
 
-    <section id = "experiencias" class = "experiencies" >
-      <div class = "container" >
-        <article class = "experience" >
-          <figure class = "experience_image_container" >
-            <img class = "experience_image" src = "#" alt = "imagen" >
-          </figure>
-          <div class = "experience_details" >
-            <h3 class = "experience_title" >Criteria</h3>
-            <p class = "experience_description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </article>
-        <article class = "experience" >
-          <figure class = "experience_image_container" >
-            <img class = "experience_image" src = "#" alt = "imagen" >
-          </figure>
-          <div class = "experience_details" >
-            <h3 class = "experience_title" >NUR INSIGHT</h3>
-            <p class = "experience_description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </article>
-      </div>
-    </section>
+    <main class = "main-container" >
+      <aside class = "aside" >
+        <div class = "logo" >
+          <a href = "#" >Pedro</a>
+        </div>
 
-    <section id = "contacto" class = "contact" >
-      <div class = "container" >
-        <form class = "contact_form" action = "#" method = "post" >
-          <h3 class = "contact_title" >¿Hablamos?</h3>
-          <label for = "email" ></label>
-          <input class = "contact_email" type = "text" id = "email" name = "email" placeholder = "example@gmail.com" >
-          <button class = "contact_button" type = "button" name = "button" >Enviar</button>
-        </form>
-        <div class = "social" >
-          <a href = "#" class = "social_link linkedin" ><i class = "fab fa-linkedin fa-3x" ></i></a>
-          <a href = "#" class = "social_link github" ><i class = "fab fa-github-square fa-3x"></i></a>
-          <a href = "#" class = "social_link facebook" ><i class = "fab fa-facebook-square fa-3x" ></i></a>
-          <a href = "#" class = "social_link instagram" ><i class = "fab fa-instagram fa-3x" ></i></a>
+        <div class = "nav-toggler" >
+          <span></span>
+        </div>
+
+        <nav>
+          <ul class = "menu" >
+            <li><a href = "#home" class = "active" ><i class = "fa fa-home" ></i> Inicio</a></li>
+            <li><a href = "#about" ><i class = "fa fa-user" ></i> Sobre Mí</a></li>
+            <li><a href = "#services" ><i class = "fa fa-list" ></i> Servicios</a></li>
+            <li><a href = "#portfolio" ><i class = "fa fa-briefcase" ></i> Portafolio</a></li>
+            <li><a href = "#contact" ><i class = "fa fa-comments" ></i> Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="copyright-text">
+          &copy; 2020 Pedro Calvo Quesada
+        </div>
+      </aside>
+
+      <div class = "main-content" >
+        <section class = "home section active" id = "home" >
+          <div class = "container" >
+            <div class = "intro" >
+              <img src = "https://i.postimg.cc/qR7V6z6h/IMG-20190711-112145.jpg" alt = "Profile" class = "shadow-dark" >
+              <h1>Pedro Calvo Quesada</h1>
+              <p>Desarrollador Web Junior</p>
+              <div class = "social-links" >
+                <a href = "#" ><i class = "fa fa-facebook" ></i></a>
+                <a href = "#" ><i class = "fa fa-instagram" ></i></a>
+                <a href = "https://www.linkedin.com/in/pedro-calvo-quesada/" target="_blank" ><i class = "fa fa-linkedin" ></i></a>
+                <a href = "https://github.com/PedroPCQ" target="_blank" ><i class = "fa fa-github-alt" ></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class = "about section" id = "about" >
+          <div class = "container" >
+            <div class = "row" >
+              <div class = "section-title padd-15" >
+                <h2>Sobre Mí</h2>
+              </div>
+            </div>
+            <div class = "row" >
+              <div class = "about-content padd-15" >
+                <div class = "row" >
+                  <div class = "about-text padd-15" >
+                    <h3>Hola Mundo! Me llamo Pedro Calvo Quesada y soy <span>Desarrollador Web</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
+                <div class = "row" >
+                  <div class = "personal-info padd-15" >
+                    <div class = "row" >
+                      <div class = "info-item padd-15" >
+                        <p>Fecha de Nacimiento : <span>05/08/1994</span></p>
+                      </div>
+                      <div class = "info-item padd-15" >
+                        <p>Edad : <span>26 años</span></p>
+                      </div>
+                      <div class = "info-item padd-15" >
+                        <p>Web : <span>www.pedropcq.github.io</span></p>
+                      </div>
+                      <div class = "info-item padd-15" >
+                        <p>Titulación : <span>Desarrollo Web</span></p>
+                      </div>
+                      <div class = "info-item padd-15" >
+                        <p>Teléfono : <span>+34 621 003 020</span></p>
+                      </div>
+                      <div class = "info-item padd-15" >
+                        <p>Ciudad : <span>Madrid</span></p>
+                      </div>
+                      <div class = "info-item padd-15" >
+                        <p>Freelance : <span>Disponible</span></p>
+                      </div>
+                      <div class = "info-item padd-15" >
+                        <p>Email : <span>pedrocalvoquesada@gmail.com</span></p>
+                      </div>
+                    </div>
+                    <div class = "row" >
+                      <div class = "buttons padd-15" >
+                        <a href = "#" class = "btn" >Descargar CV</a>
+                        <a href = "#contact" data-section-index = "1" class = "btn hire-me" >¿Hablamos?</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "skills padd-15" >
+                    <div class = "row" >
+                      <div class = "skill-item padd-15" >
+                        <h5>HTML5, CSS3 & Javascript</h5>
+                        <div class = "progress" >
+                          <div class = "progress-in" style = "width: 90%" ></div>
+                          <div class = "skill-percent" >90%</div>
+                        </div>
+                      </div>
+                      <div class = "skill-item padd-15" >
+                        <h5>PHP & MySql</h5>
+                        <div class = "progress" >
+                          <div class = "progress-in" style = "width: 60%" ></div>
+                          <div class = "skill-percent" >60%</div>
+                        </div>
+                      </div>
+                      <div class = "skill-item padd-15" >
+                        <h5>Wordpress</h5>
+                        <div class = "progress" >
+                          <div class = "progress-in"  style = "width: 80%" ></div>
+                          <div class = "skill-percent" >80%</div>
+                        </div>
+                      </div>
+                      <div class = "skill-item padd-15" >
+                        <h5>Git & GitHub</h5>
+                        <div class = "progress" >
+                          <div class = "progress-in" style = "width: 76%" ></div>
+                          <div class = "skill-percent" >76%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class = "row" >
+                  <div class = "education padd-15" >
+                    <h3 class = "title" >Educación</h3>
+                    <div class = "row" >
+                      <div class = "timeline-box padd-15" >
+                        <div class = "timeline shadow-dark" >
+                          <div class = "timeline-item" >
+                            <div class = "circle-dot" ></div>
+                            <h6 class = "timeline-date" >
+                              <i class = "fa fa-calendar" > 2019-2020</i>
+                            </h6>
+                            <h4 class = "timeline-title" >Desarrollo de Aplicaciones con Tecnologías Web</h4>
+                            <p class = "timeline-text" >
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "experience padd-15" >
+                    <h3 class = "title" >Experiencia</h3>
+                    <div class = "row" >
+                      <div class = "timeline-box padd-15" >
+                        <div class = "timeline shadow-dark" >
+                          <div class = "timeline-item" >
+                            <div class = "circle-dot" ></div>
+                            <h6 class = "timeline-date" >
+                              <i class = "fa fa-calendar" > 2020</i>
+                            </h6>
+                            <h4 class = "timeline-title" >Desarrollador Web</h4>
+                            <p class = "timeline-text" >
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class = "service section" id = "services" >
+          <div class = "container" >
+            <div class = "row" >
+              <div class = "section-title padd-15" >
+                <h2>Servicios</h2>
+              </div>
+            </div>
+            <div class = "row" >
+              <div class = "service-item padd-15" >
+                <div class = "service-item-inner" >
+                  <div class = "icon" ><i class = "fa fa-laptop" ></i></div>
+                  <h4>Responsive Design</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class = "service-item padd-15" >
+                <div class = "service-item-inner" >
+                  <div class = "icon" ><i class = "fa fa-stack-overflow" ></i></div>
+                  <h4>Full Stack</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class = "service-item padd-15" >
+                <div class = "service-item-inner" >
+                  <div class = "icon" ><i class = "fa fa-code" ></i></div>
+                  <h4>Programación Web</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class = "service-item padd-15" >
+                <div class = "service-item-inner" >
+                  <div class = "icon" ><i class = "fa fa-chrome" ></i></div>
+                  <h4>Mantenimiento</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class = "service-item padd-15" >
+                <div class = "service-item-inner" >
+                  <div class = "icon" ><i class = "fa fa-rocket" ></i></div>
+                  <h4>SEO</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class = "service-item padd-15" >
+                <div class = "service-item-inner" >
+                  <div class = "icon" ><i class = "fa fa-shopping-cart" ></i></div>
+                  <h4>E-Commerce</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class = "portfolio section" id = "portfolio" >
+          <div class = "container" >
+            <div class = "row" >
+              <div class = "section-title padd-15" >
+                <h2>Portafolio</h2>
+              </div>
+            </div>
+            <div class = "row" >
+              <div class = "portfolio-filter padd-15" >
+                <button type = "button" data-filter = "all" class = "active" >Todos</button>
+                <button type = "button" data-filter = "html-css" >HTML5 & CSS3</button>
+                <button type = "button" data-filter = "javascript" >Javascript</button>
+                <button type = "button" data-filter = "php-mysql" >PHP & MySql</button>
+                <button type = "button" data-filter = "Wordpress" >Wordpress</button>
+              </div>
+            </div>
+            <div class = "row" >
+              <div class = "portfolio-item padd-15" data-category = "javascript" >
+                <div class = "portfolio-item-inner shadow-dark" >
+                  <div class = "portfolio-img" >
+                    <img src = "https://i.postimg.cc/BQBmzJ7c/Weather-App.png" alt = "weather app" >
+                  </div>
+                  <div class = "portfolio-info" >
+                    <h4>Weather App</h4>
+                    <div class = "icon" ><i class="fa fa-search"></i></div>
+                  </div>
+                </div>
+                <div class = "portfolio-link-container" >
+                  <a class = "portfolio-link" href ="https://pedropcq.github.io/weather-app/" target="_blank" >Weather App</a>
+                </div>
+              </div>
+              <div class = "portfolio-item padd-15" data-category = "javascript" >
+                <div class = "portfolio-item-inner shadow-dark" >
+                  <div class = "portfolio-img" >
+                    <img src = "https://i.postimg.cc/W4kWXgBt/To-Do-List.png" alt = "to do list" >
+                  </div>
+                  <div class = "portfolio-info" >
+                    <h4>To Do List</h4>
+                    <div class = "icon" ><i class="fa fa-search"></i></div>
+                  </div>
+                </div>
+                <div class = "portfolio-link-container" >
+                  <a class = "portfolio-link" href ="https://pedropcq.github.io/to-do-list/" target="_blank" >To Do List</a>
+                </div>
+              </div>
+              <div class = "portfolio-item padd-15" data-category = "javascript" >
+                <div class = "portfolio-item-inner shadow-dark" >
+                  <div class = "portfolio-img" >
+                    <img src = "https://i.postimg.cc/bYkD0T34/Calculadora.png" alt = "Calculadora" >
+                  </div>
+                  <div class = "portfolio-info" >
+                    <h4>Calculadora</h4>
+                    <div class = "icon" ><i class="fa fa-search"></i></div>
+                  </div>
+                </div>
+                <div class = "portfolio-link-container" >
+                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Calculadora/" target="_blank" >Calculadora</a>
+                </div>
+              </div>
+              <div class = "portfolio-item padd-15" data-category = "javascript" >
+                <div class = "portfolio-item-inner shadow-dark" >
+                  <div class = "portfolio-img" >
+                    <img src = "https://i.postimg.cc/rmJ6c7qv/Piedra-papel-tijeras-lagarto-Spock.png" alt = "piedra, papel, tijeras, lagarto, spock" >
+                  </div>
+                  <div class = "portfolio-info" >
+                    <h4>Piedra, Papel, Tijeras, Lagarto, Spock</h4>
+                    <div class = "icon" ><i class="fa fa-search"></i></div>
+                  </div>
+                </div>
+                <div class = "portfolio-link-container" >
+                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Piedra-papel-tijeras-lagarto-spock/" target="_blank" >Piedra, papel, tijeras, lagarto, Spock</a>
+                </div>
+              </div>
+              <div class = "portfolio-item padd-15" data-category = "html-css" >
+                <div class = "portfolio-item-inner shadow-dark" >
+                  <div class = "portfolio-img" >
+                    <img src = "https://i.postimg.cc/KzsNn5f1/Google-Clone.png" alt = "google clone" >
+                  </div>
+                  <div class = "portfolio-info" >
+                    <h4>Google Clone</h4>
+                    <div class = "icon" ><i class="fa fa-search"></i></div>
+                  </div>
+                </div>
+                <div class = "portfolio-link-container" >
+                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Google-Clone/" target="_blank" >Google Clone</a>
+                </div>
+              </div>
+              <div class = "portfolio-item padd-15" data-category = "html-css" >
+                <div class = "portfolio-item-inner shadow-dark" >
+                  <div class = "portfolio-img" >
+                    <img src = "https://i.postimg.cc/V6G8n22X/M-ster-en-CSS-Pedro-Calvo.png" alt = "blog" >
+                  </div>
+                  <div class = "portfolio-info" >
+                    <h4>Maquetación-Blog</h4>
+                    <div class = "icon" ><i class="fa fa-search"></i></div>
+                  </div>
+                </div>
+                <div class = "portfolio-link-container" >
+                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Maquetacion-blog-html-css/" target="_blank" >Maquetación Blog</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class = "contact section" id = "contact" >
+          <div class = "container" >
+            <div class = "row" >
+              <div class = "section-title padd-15" >
+                <h2>¿Hablamos?</h2>
+              </div>
+            </div>
+            <div class = "row" >
+              <div class = "contact-info-item padd-15" >
+                <div class = "icon" ><i class = "fa fa-phone" ></i></div>
+                <h4>Puedes llamarme al</h4>
+                <p>+34 621 003 020</p>
+              </div>
+              <div class = "contact-info-item padd-15" >
+                <div class = "icon" ><i class = "fa fa-envelope" ></i></div>
+                <h4>Email</h4>
+                <p>pedrocalvoquesada@gmail.com</p>
+              </div>
+            </div>
+            <div class = "row" >
+              <form action = "#" class = "contact-form padd-15" >
+                <div class = "row" >
+                  <div class = "form-item col-6 padd-15" >
+                    <div class = "form-group" >
+                      <input type = "text" class = "form-control" placeholder = "Nombre*" >
+                    </div>
+                  </div>
+                  <div class = "form-item col-6 padd-15" >
+                    <div class = "form-group" >
+                      <input type = "text" class = "form-control" placeholder = "Email*" >
+                    </div>
+                  </div>
+                </div>
+                <div class = "row" >
+                  <div class = "form-item col-12 padd-15" >
+                    <div class = "form-group" >
+                      <input type = "text" class = "form-control" placeholder = "Asunto*" >
+                    </div>
+                  </div>
+                </div>
+                <div class = "row" >
+                  <div class = "form-item col-12 padd-15" >
+                    <div class = "form-group" >
+                      <textarea class = "form-control" placeholder = "Deja aquí tu mensaje...*" ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class = "row" >
+                  <div class = "col-12 padd-15" >
+                    <button type = "submit" class = "btn" >Enviar Mensaje</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class = "lightbox" >
+      <div class = "lightbox-content" >
+        <div class = "lightbox-close" >&times;</div>
+        <img src = "https://i.postimg.cc/BQBmzJ7c/Weather-App.png" alt = "" class = "lightbox-img" onclick = "nextItem();" >
+        <div class = "lightbox-caption" >
+          <div class = "caption-text" ></div>
+          <div class = "caption-counter" ></div>
         </div>
       </div>
-    </section>
-
-    <footer class = "footer" >
-      <div class = "container" >
-        <p>Curso de desarrollo web 2020</p>
+      <div class = "lightbox-controls" >
+        <div class = "prev-item" onclick = "prevItem();" ><i class = "fa fa-angle-left" ></i></div>
+        <div class = "next-item" onclick = "nextItem();" ><i class = "fa fa-angle-right" ></i></div>
       </div>
-    </footer>
+    </div>
 
-    <script src = "https://kit.fontawesome.com/2d89224559.js" crossorigin = "anonymous" ></script>
-    <script src = "js/main.js" type = "text/javascript" charset = "utf-8" ></script>
+    <div class = "style-switcher" >
+      <div class = "toggle-style-switcher" >
+        <i class = "fa fa-cog fa-spin" ></i>
+      </div>
+      <h5>Style Switcher</h5>
+      <ul>
+        <li><a href = "javascript:void(0);" title = "red" style = "background-color: #ec1839" onclick="setActiveStyle('red')" ></a></li>
+        <li><a href = "javascript:void(0);" title = "blue" style = "background-color: #2196f3" onclick="setActiveStyle('blue')" ></a></li>
+        <li><a href = "javascript:void(0);" title = "orange" style = "background-color: #fa5b0f" onclick="setActiveStyle('orange')" ></a></li>
+        <li><a href = "javascript:void(0);" title = "yellow" style = "background-color: #ffb400" onclick="setActiveStyle('yellow')" ></a></li>
+        <li><a href = "javascript:void(0);" title = "green " style = "background-color: #72b626" onclick="setActiveStyle('green')" ></a></li>
+      </ul>
+      <h5>Body Skin</h5>
+      <label>
+        <input type = "radio" class = "body-skin" name = "body-style" value = "light" checked >Light
+      </label>
+      <label>
+        <input type = "radio" class = "body-skin" name = "body-style" value = "dark" >Dark
+      </label>
+    </div>
+
+  <script type = "text/javascript" src = "js/main.js" charset = "utf-8" ></script>
+  <script type = "text/javascript" src = "js/portfolio-filter.js" charset = "utf-8" ></script>
+  <script type = "text/javascript" src = "js/styleSwitcher.js" charset = "utf-8" ></script>
   </body>
 </html>
