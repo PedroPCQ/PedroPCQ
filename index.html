@@ -1,467 +1,727 @@
 <!DOCTYPE html>
-<html lang = "es" >
-  <head>
-    <meta charset = "UTF-8" >
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
-    <meta http-equiv = "X-UA-Compatible" content = "ie=edge" >
-    <title>Web Portfolio</title>
-    <link type = "text/css" rel = "stylesheet" href = "css/styles.css" >
-    <link type = "text/css" rel = "stylesheet" href = "css/dark-theme.css" >
-    <link type = "text/css" class = "alternate-style" title = "red" rel = "stylesheet" href = "css/skins/red.css" >
-    <link type = "text/css" class = "alternate-style" title = "blue" rel = "stylesheet" href = "css/skins/blue.css" disabled >
-    <link type = "text/css" class = "alternate-style" title = "orange" rel = "stylesheet" href = "css/skins/orange.css" disabled >
-    <link type = "text/css" class = "alternate-style" title = "yellow" rel = "stylesheet" href = "css/skins/yellow.css" disabled >
-    <link type = "text/css" class = "alternate-style" title = "green" rel = "stylesheet" href = "css/skins/green.css" disabled >
-    <link type = "text/css" rel = "stylesheet" href = "css/style-switcher.css" >
-    <link type = "text/css" rel = "stylesheet" href = "css/responsive.css" >
-  </head>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Web Portfolio</title>
+        <link type="text/css" rel="stylesheet" href="css/styles.css" />
+        <link type="text/css" rel="stylesheet" href="css/dark-theme.css" />
+        <link
+            type="text/css"
+            class="alternate-style"
+            title="red"
+            rel="stylesheet"
+            href="css/skins/red.css"
+        />
+        <link
+            type="text/css"
+            class="alternate-style"
+            title="blue"
+            rel="stylesheet"
+            href="css/skins/blue.css"
+            disabled
+        />
+        <link
+            type="text/css"
+            class="alternate-style"
+            title="orange"
+            rel="stylesheet"
+            href="css/skins/orange.css"
+            disabled
+        />
+        <link
+            type="text/css"
+            class="alternate-style"
+            title="yellow"
+            rel="stylesheet"
+            href="css/skins/yellow.css"
+            disabled
+        />
+        <link
+            type="text/css"
+            class="alternate-style"
+            title="green"
+            rel="stylesheet"
+            href="css/skins/green.css"
+            disabled
+        />
+        <link type="text/css" rel="stylesheet" href="css/style-switcher.css" />
+        <link type="text/css" rel="stylesheet" href="css/responsive.css" />
+    </head>
 
-  <body>
-    <div class = "preloader" >
-      <div class = "loader" >
-
-      </div>
-    </div>
-
-    <main class = "main-container" >
-      <aside class = "aside" >
-        <div class = "logo" >
-          <a href = "#" >Pedro</a>
+    <body>
+        <div class="preloader">
+            <div class="loader"></div>
         </div>
 
-        <div class = "nav-toggler" >
-          <span></span>
+        <main class="main-container">
+            <aside class="aside">
+                <div class="logo">
+                    <a href="#">Pedro</a>
+                </div>
+
+                <div class="nav-toggler">
+                    <span></span>
+                </div>
+
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="#home" class="active"><i class="fa fa-home"></i> Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#about"><i class="fa fa-user"></i> Sobre Mí</a>
+                        </li>
+                        <li>
+                            <a href="#services"><i class="fa fa-list"></i> Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio"><i class="fa fa-briefcase"></i> Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact"><i class="fa fa-comments"></i> Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="copyright-text">&copy; 2020 Pedro Calvo Quesada</div>
+            </aside>
+
+            <div class="main-content">
+                <section class="home section active" id="home">
+                    <div class="container">
+                        <div class="intro">
+                            <img
+                                src="https://i.postimg.cc/qR7V6z6h/IMG-20190711-112145.jpg"
+                                alt="Profile"
+                                class="shadow-dark"
+                            />
+                            <h1>Pedro Calvo Quesada</h1>
+                            <p>Desarrollador Web Junior</p>
+                            <div class="social-links">
+                                <a
+                                    href="https://www.instagram.com/pedrocalvoquesada/?hl=es"
+                                    target="_blank"
+                                    ><i class="fa fa-instagram"></i
+                                ></a>
+                                <a
+                                    href="https://www.facebook.com/pedro.calvoquesada"
+                                    target="_blank"
+                                    ><i class="fa fa-facebook"></i
+                                ></a>
+                                <a
+                                    href="https://www.linkedin.com/in/pedro-calvo-quesada/"
+                                    target="_blank"
+                                    ><i class="fa fa-linkedin"></i
+                                ></a>
+                                <a href="https://github.com/PedroPCQ" target="_blank"
+                                    ><i class="fa fa-github-alt"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about section" id="about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Sobre Mí</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="about-content padd-15">
+                                <div class="row">
+                                    <div class="about-text padd-15">
+                                        <h3>
+                                            Hola Mundo! Me llamo Pedro Calvo Quesada y soy
+                                            <span>Desarrollador Web</span>
+                                        </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit, sed do eiusmod tempor incididunt ut labore et
+                                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea commodo consequat. Duis aute irure dolor in
+                                            reprehenderit in voluptate velit esse cillum dolore eu
+                                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                            non proident, sunt in culpa qui officia deserunt mollit
+                                            anim id est laborum.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="personal-info padd-15">
+                                        <div class="row">
+                                            <div class="info-item padd-15">
+                                                <p>Fecha de Nacimiento : <span>05/08/1994</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Edad : <span>26 años</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Web : <span>www.pedropcq.github.io</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Titulación : <span>Desarrollo Web</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Teléfono : <span>+34 621 003 020</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Ciudad : <span>Madrid</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Freelance : <span>Disponible</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>
+                                                    Email : <span>pedrocalvoquesada@gmail.com</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="buttons padd-15">
+                                                <a href="#" class="btn">Descargar CV</a>
+                                                <a
+                                                    href="#contact"
+                                                    data-section-index="1"
+                                                    class="btn hire-me"
+                                                    >¿Hablamos?</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skills padd-15">
+                                        <div class="row">
+                                            <div class="skill-item padd-15">
+                                                <h5>HTML5, CSS3 & Javascript</h5>
+                                                <div class="progress">
+                                                    <div
+                                                        class="progress-in"
+                                                        style="width: 90%"
+                                                    ></div>
+                                                    <div class="skill-percent">90%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>PHP & MySql</h5>
+                                                <div class="progress">
+                                                    <div
+                                                        class="progress-in"
+                                                        style="width: 60%"
+                                                    ></div>
+                                                    <div class="skill-percent">60%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>Wordpress</h5>
+                                                <div class="progress">
+                                                    <div
+                                                        class="progress-in"
+                                                        style="width: 80%"
+                                                    ></div>
+                                                    <div class="skill-percent">80%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>Git & GitHub</h5>
+                                                <div class="progress">
+                                                    <div
+                                                        class="progress-in"
+                                                        style="width: 76%"
+                                                    ></div>
+                                                    <div class="skill-percent">76%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="education padd-15">
+                                        <h3 class="title">Educación</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h6 class="timeline-date">
+                                                            <i class="fa fa-calendar"> 2019-2020</i>
+                                                        </h6>
+                                                        <h4 class="timeline-title">
+                                                            Desarrollo de Aplicaciones con
+                                                            Tecnologías Web
+                                                        </h4>
+                                                        <p class="timeline-text">
+                                                            Lorem ipsum dolor sit amet, consectetur
+                                                            adipisicing elit, sed do eiusmod tempor
+                                                            incididunt ut labore et dolore magna
+                                                            aliqua. Ut enim ad minim veniam, quis
+                                                            nostrud exercitation ullamco laboris
+                                                            nisi ut aliquip ex ea commodo consequat.
+                                                            Duis aute irure dolor in reprehenderit
+                                                            in voluptate velit esse cillum dolore eu
+                                                            fugiat nulla pariatur. Excepteur sint
+                                                            occaecat cupidatat non proident, sunt in
+                                                            culpa qui officia deserunt mollit anim
+                                                            id est laborum.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="experience padd-15">
+                                        <h3 class="title">Experiencia</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h6 class="timeline-date">
+                                                            <i class="fa fa-calendar"> 2020</i>
+                                                        </h6>
+                                                        <h4 class="timeline-title">
+                                                            Desarrollador Web
+                                                        </h4>
+                                                        <p class="timeline-text">
+                                                            Lorem ipsum dolor sit amet, consectetur
+                                                            adipisicing elit, sed do eiusmod tempor
+                                                            incididunt ut labore et dolore magna
+                                                            aliqua. Ut enim ad minim veniam, quis
+                                                            nostrud exercitation ullamco laboris
+                                                            nisi ut aliquip ex ea commodo consequat.
+                                                            Duis aute irure dolor in reprehenderit
+                                                            in voluptate velit esse cillum dolore eu
+                                                            fugiat nulla pariatur. Excepteur sint
+                                                            occaecat cupidatat non proident, sunt in
+                                                            culpa qui officia deserunt mollit anim
+                                                            id est laborum.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="service section" id="services">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Servicios</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon"><i class="fa fa-laptop"></i></div>
+                                    <h4>Responsive Design</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon"><i class="fa fa-stack-overflow"></i></div>
+                                    <h4>Full Stack</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon"><i class="fa fa-code"></i></div>
+                                    <h4>Programación Web</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon"><i class="fa fa-chrome"></i></div>
+                                    <h4>Mantenimiento</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon"><i class="fa fa-rocket"></i></div>
+                                    <h4>SEO</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+                                    <h4>E-Commerce</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="portfolio section" id="portfolio">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Portafolio</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="portfolio-filter padd-15">
+                                <button type="button" data-filter="all" class="active">
+                                    Todos
+                                </button>
+                                <button type="button" data-filter="html-css">HTML5 & CSS3</button>
+                                <button type="button" data-filter="javascript">Javascript</button>
+                                <button type="button" data-filter="php-mysql">PHP & MySql</button>
+                                <button type="button" data-filter="Wordpress">Wordpress</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="portfolio-item padd-15" data-category="javascript">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img
+                                            src="https://i.postimg.cc/BQBmzJ7c/Weather-App.png"
+                                            alt="weather app"
+                                        />
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h4>Weather App</h4>
+                                        <div class="icon"><i class="fa fa-search"></i></div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-link-container">
+                                    <a
+                                        class="portfolio-link"
+                                        href="https://pedropcq.github.io/weather-app/"
+                                        target="_blank"
+                                        >Weather App</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15" data-category="javascript">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img
+                                            src="https://i.postimg.cc/W4kWXgBt/To-Do-List.png"
+                                            alt="to do list"
+                                        />
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h4>To Do List</h4>
+                                        <div class="icon"><i class="fa fa-search"></i></div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-link-container">
+                                    <a
+                                        class="portfolio-link"
+                                        href="https://pedropcq.github.io/to-do-list/"
+                                        target="_blank"
+                                        >To Do List</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15" data-category="javascript">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img
+                                            src="https://i.postimg.cc/bYkD0T34/Calculadora.png"
+                                            alt="Calculadora"
+                                        />
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h4>Calculadora</h4>
+                                        <div class="icon"><i class="fa fa-search"></i></div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-link-container">
+                                    <a
+                                        class="portfolio-link"
+                                        href="https://pedropcq.github.io/Calculadora/"
+                                        target="_blank"
+                                        >Calculadora</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15" data-category="javascript">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img
+                                            src="https://i.postimg.cc/rmJ6c7qv/Piedra-papel-tijeras-lagarto-Spock.png"
+                                            alt="piedra, papel, tijeras, lagarto, spock"
+                                        />
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h4>Piedra, Papel, Tijeras, Lagarto, Spock</h4>
+                                        <div class="icon"><i class="fa fa-search"></i></div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-link-container">
+                                    <a
+                                        class="portfolio-link"
+                                        href="https://pedropcq.github.io/Piedra-papel-tijeras-lagarto-spock/"
+                                        target="_blank"
+                                        >Piedra, papel, tijeras, lagarto, Spock</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15" data-category="html-css">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img
+                                            src="https://i.postimg.cc/KzsNn5f1/Google-Clone.png"
+                                            alt="google clone"
+                                        />
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h4>Google Clone</h4>
+                                        <div class="icon"><i class="fa fa-search"></i></div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-link-container">
+                                    <a
+                                        class="portfolio-link"
+                                        href="https://pedropcq.github.io/Google-Clone/"
+                                        target="_blank"
+                                        >Google Clone</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15" data-category="html-css">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img
+                                            src="https://i.postimg.cc/V6G8n22X/M-ster-en-CSS-Pedro-Calvo.png"
+                                            alt="blog"
+                                        />
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h4>Maquetación-Blog</h4>
+                                        <div class="icon"><i class="fa fa-search"></i></div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-link-container">
+                                    <a
+                                        class="portfolio-link"
+                                        href="https://pedropcq.github.io/Maquetacion-blog-html-css/"
+                                        target="_blank"
+                                        >Maquetación Blog</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15" data-category="php-mysql">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img
+                                            src="https://i.postimg.cc/SR8CgSRC/Apolo-Music.png"
+                                            alt="Apolo Music"
+                                        />
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h4>Apolo Music</h4>
+                                        <div class="icon"><i class="fa fa-search"></i></div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-link-container">
+                                    <a
+                                        class="portfolio-link"
+                                        href="https://pedrocalvoquesada01.000webhostapp.com/Pedro_Calvo_MII/Index.php"
+                                        target="_blank"
+                                        >Apolo Music</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact section" id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>¿Hablamos?</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-phone"></i></div>
+                                <h4>Puedes llamarme al</h4>
+                                <p>+34 621 003 020</p>
+                            </div>
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-envelope"></i></div>
+                                <h4>Email</h4>
+                                <p>pedrocalvoquesada@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <form action="#" class="contact-form padd-15">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                placeholder="Nombre*"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                placeholder="Email*"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                placeholder="Asunto*"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Deja aquí tu mensaje...*"
+                                            ></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 padd-15">
+                                        <button type="submit" class="btn">Enviar Mensaje</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <div class="lightbox">
+            <div class="lightbox-content">
+                <div class="lightbox-close">&times;</div>
+                <img
+                    src="https://i.postimg.cc/BQBmzJ7c/Weather-App.png"
+                    alt=""
+                    class="lightbox-img"
+                    onclick="nextItem();"
+                />
+                <div class="lightbox-caption">
+                    <div class="caption-text"></div>
+                    <div class="caption-counter"></div>
+                </div>
+            </div>
+            <div class="lightbox-controls">
+                <div class="prev-item" onclick="prevItem();"><i class="fa fa-angle-left"></i></div>
+                <div class="next-item" onclick="nextItem();"><i class="fa fa-angle-right"></i></div>
+            </div>
         </div>
 
-        <nav>
-          <ul class = "menu" >
-            <li><a href = "#home" class = "active" ><i class = "fa fa-home" ></i> Inicio</a></li>
-            <li><a href = "#about" ><i class = "fa fa-user" ></i> Sobre Mí</a></li>
-            <li><a href = "#services" ><i class = "fa fa-list" ></i> Servicios</a></li>
-            <li><a href = "#portfolio" ><i class = "fa fa-briefcase" ></i> Portafolio</a></li>
-            <li><a href = "#contact" ><i class = "fa fa-comments" ></i> Contacto</a></li>
-          </ul>
-        </nav>
-
-        <div class="copyright-text">
-          &copy; 2020 Pedro Calvo Quesada
+        <div class="style-switcher">
+            <div class="toggle-style-switcher">
+                <i class="fa fa-cog fa-spin"></i>
+            </div>
+            <h5>Style Switcher</h5>
+            <ul>
+                <li>
+                    <a
+                        href="javascript:void(0);"
+                        title="red"
+                        style="background-color: #ec1839"
+                        onclick="setActiveStyle('red')"
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="javascript:void(0);"
+                        title="blue"
+                        style="background-color: #2196f3"
+                        onclick="setActiveStyle('blue')"
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="javascript:void(0);"
+                        title="orange"
+                        style="background-color: #fa5b0f"
+                        onclick="setActiveStyle('orange')"
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="javascript:void(0);"
+                        title="yellow"
+                        style="background-color: #ffb400"
+                        onclick="setActiveStyle('yellow')"
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="javascript:void(0);"
+                        title="green "
+                        style="background-color: #72b626"
+                        onclick="setActiveStyle('green')"
+                    ></a>
+                </li>
+            </ul>
+            <h5>Body Skin</h5>
+            <label>
+                <input
+                    type="radio"
+                    class="body-skin"
+                    name="body-style"
+                    value="light"
+                    checked
+                />Light
+            </label>
+            <label>
+                <input type="radio" class="body-skin" name="body-style" value="dark" />Dark
+            </label>
         </div>
-      </aside>
 
-      <div class = "main-content" >
-        <section class = "home section active" id = "home" >
-          <div class = "container" >
-            <div class = "intro" >
-              <img src = "https://i.postimg.cc/qR7V6z6h/IMG-20190711-112145.jpg" alt = "Profile" class = "shadow-dark" >
-              <h1>Pedro Calvo Quesada</h1>
-              <p>Desarrollador Web Junior</p>
-              <div class = "social-links" >
-                <a href = "#" ><i class = "fa fa-facebook" ></i></a>
-                <a href = "#" ><i class = "fa fa-instagram" ></i></a>
-                <a href = "https://www.linkedin.com/in/pedro-calvo-quesada/" target="_blank" ><i class = "fa fa-linkedin" ></i></a>
-                <a href = "https://github.com/PedroPCQ" target="_blank" ><i class = "fa fa-github-alt" ></i></a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class = "about section" id = "about" >
-          <div class = "container" >
-            <div class = "row" >
-              <div class = "section-title padd-15" >
-                <h2>Sobre Mí</h2>
-              </div>
-            </div>
-            <div class = "row" >
-              <div class = "about-content padd-15" >
-                <div class = "row" >
-                  <div class = "about-text padd-15" >
-                    <h3>Hola Mundo! Me llamo Pedro Calvo Quesada y soy <span>Desarrollador Web</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  </div>
-                </div>
-                <div class = "row" >
-                  <div class = "personal-info padd-15" >
-                    <div class = "row" >
-                      <div class = "info-item padd-15" >
-                        <p>Fecha de Nacimiento : <span>05/08/1994</span></p>
-                      </div>
-                      <div class = "info-item padd-15" >
-                        <p>Edad : <span>26 años</span></p>
-                      </div>
-                      <div class = "info-item padd-15" >
-                        <p>Web : <span>www.pedropcq.github.io</span></p>
-                      </div>
-                      <div class = "info-item padd-15" >
-                        <p>Titulación : <span>Desarrollo Web</span></p>
-                      </div>
-                      <div class = "info-item padd-15" >
-                        <p>Teléfono : <span>+34 621 003 020</span></p>
-                      </div>
-                      <div class = "info-item padd-15" >
-                        <p>Ciudad : <span>Madrid</span></p>
-                      </div>
-                      <div class = "info-item padd-15" >
-                        <p>Freelance : <span>Disponible</span></p>
-                      </div>
-                      <div class = "info-item padd-15" >
-                        <p>Email : <span>pedrocalvoquesada@gmail.com</span></p>
-                      </div>
-                    </div>
-                    <div class = "row" >
-                      <div class = "buttons padd-15" >
-                        <a href = "#" class = "btn" >Descargar CV</a>
-                        <a href = "#contact" data-section-index = "1" class = "btn hire-me" >¿Hablamos?</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class = "skills padd-15" >
-                    <div class = "row" >
-                      <div class = "skill-item padd-15" >
-                        <h5>HTML5, CSS3 & Javascript</h5>
-                        <div class = "progress" >
-                          <div class = "progress-in" style = "width: 90%" ></div>
-                          <div class = "skill-percent" >90%</div>
-                        </div>
-                      </div>
-                      <div class = "skill-item padd-15" >
-                        <h5>PHP & MySql</h5>
-                        <div class = "progress" >
-                          <div class = "progress-in" style = "width: 60%" ></div>
-                          <div class = "skill-percent" >60%</div>
-                        </div>
-                      </div>
-                      <div class = "skill-item padd-15" >
-                        <h5>Wordpress</h5>
-                        <div class = "progress" >
-                          <div class = "progress-in"  style = "width: 80%" ></div>
-                          <div class = "skill-percent" >80%</div>
-                        </div>
-                      </div>
-                      <div class = "skill-item padd-15" >
-                        <h5>Git & GitHub</h5>
-                        <div class = "progress" >
-                          <div class = "progress-in" style = "width: 76%" ></div>
-                          <div class = "skill-percent" >76%</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class = "row" >
-                  <div class = "education padd-15" >
-                    <h3 class = "title" >Educación</h3>
-                    <div class = "row" >
-                      <div class = "timeline-box padd-15" >
-                        <div class = "timeline shadow-dark" >
-                          <div class = "timeline-item" >
-                            <div class = "circle-dot" ></div>
-                            <h6 class = "timeline-date" >
-                              <i class = "fa fa-calendar" > 2019-2020</i>
-                            </h6>
-                            <h4 class = "timeline-title" >Desarrollo de Aplicaciones con Tecnologías Web</h4>
-                            <p class = "timeline-text" >
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class = "experience padd-15" >
-                    <h3 class = "title" >Experiencia</h3>
-                    <div class = "row" >
-                      <div class = "timeline-box padd-15" >
-                        <div class = "timeline shadow-dark" >
-                          <div class = "timeline-item" >
-                            <div class = "circle-dot" ></div>
-                            <h6 class = "timeline-date" >
-                              <i class = "fa fa-calendar" > 2020</i>
-                            </h6>
-                            <h4 class = "timeline-title" >Desarrollador Web</h4>
-                            <p class = "timeline-text" >
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class = "service section" id = "services" >
-          <div class = "container" >
-            <div class = "row" >
-              <div class = "section-title padd-15" >
-                <h2>Servicios</h2>
-              </div>
-            </div>
-            <div class = "row" >
-              <div class = "service-item padd-15" >
-                <div class = "service-item-inner" >
-                  <div class = "icon" ><i class = "fa fa-laptop" ></i></div>
-                  <h4>Responsive Design</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-              <div class = "service-item padd-15" >
-                <div class = "service-item-inner" >
-                  <div class = "icon" ><i class = "fa fa-stack-overflow" ></i></div>
-                  <h4>Full Stack</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-              <div class = "service-item padd-15" >
-                <div class = "service-item-inner" >
-                  <div class = "icon" ><i class = "fa fa-code" ></i></div>
-                  <h4>Programación Web</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-              <div class = "service-item padd-15" >
-                <div class = "service-item-inner" >
-                  <div class = "icon" ><i class = "fa fa-chrome" ></i></div>
-                  <h4>Mantenimiento</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-              <div class = "service-item padd-15" >
-                <div class = "service-item-inner" >
-                  <div class = "icon" ><i class = "fa fa-rocket" ></i></div>
-                  <h4>SEO</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-              <div class = "service-item padd-15" >
-                <div class = "service-item-inner" >
-                  <div class = "icon" ><i class = "fa fa-shopping-cart" ></i></div>
-                  <h4>E-Commerce</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class = "portfolio section" id = "portfolio" >
-          <div class = "container" >
-            <div class = "row" >
-              <div class = "section-title padd-15" >
-                <h2>Portafolio</h2>
-              </div>
-            </div>
-            <div class = "row" >
-              <div class = "portfolio-filter padd-15" >
-                <button type = "button" data-filter = "all" class = "active" >Todos</button>
-                <button type = "button" data-filter = "html-css" >HTML5 & CSS3</button>
-                <button type = "button" data-filter = "javascript" >Javascript</button>
-                <button type = "button" data-filter = "php-mysql" >PHP & MySql</button>
-                <button type = "button" data-filter = "Wordpress" >Wordpress</button>
-              </div>
-            </div>
-            <div class = "row" >
-              <div class = "portfolio-item padd-15" data-category = "javascript" >
-                <div class = "portfolio-item-inner shadow-dark" >
-                  <div class = "portfolio-img" >
-                    <img src = "https://i.postimg.cc/BQBmzJ7c/Weather-App.png" alt = "weather app" >
-                  </div>
-                  <div class = "portfolio-info" >
-                    <h4>Weather App</h4>
-                    <div class = "icon" ><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-                <div class = "portfolio-link-container" >
-                  <a class = "portfolio-link" href ="https://pedropcq.github.io/weather-app/" target="_blank" >Weather App</a>
-                </div>
-              </div>
-              <div class = "portfolio-item padd-15" data-category = "javascript" >
-                <div class = "portfolio-item-inner shadow-dark" >
-                  <div class = "portfolio-img" >
-                    <img src = "https://i.postimg.cc/W4kWXgBt/To-Do-List.png" alt = "to do list" >
-                  </div>
-                  <div class = "portfolio-info" >
-                    <h4>To Do List</h4>
-                    <div class = "icon" ><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-                <div class = "portfolio-link-container" >
-                  <a class = "portfolio-link" href ="https://pedropcq.github.io/to-do-list/" target="_blank" >To Do List</a>
-                </div>
-              </div>
-              <div class = "portfolio-item padd-15" data-category = "javascript" >
-                <div class = "portfolio-item-inner shadow-dark" >
-                  <div class = "portfolio-img" >
-                    <img src = "https://i.postimg.cc/bYkD0T34/Calculadora.png" alt = "Calculadora" >
-                  </div>
-                  <div class = "portfolio-info" >
-                    <h4>Calculadora</h4>
-                    <div class = "icon" ><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-                <div class = "portfolio-link-container" >
-                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Calculadora/" target="_blank" >Calculadora</a>
-                </div>
-              </div>
-              <div class = "portfolio-item padd-15" data-category = "javascript" >
-                <div class = "portfolio-item-inner shadow-dark" >
-                  <div class = "portfolio-img" >
-                    <img src = "https://i.postimg.cc/rmJ6c7qv/Piedra-papel-tijeras-lagarto-Spock.png" alt = "piedra, papel, tijeras, lagarto, spock" >
-                  </div>
-                  <div class = "portfolio-info" >
-                    <h4>Piedra, Papel, Tijeras, Lagarto, Spock</h4>
-                    <div class = "icon" ><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-                <div class = "portfolio-link-container" >
-                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Piedra-papel-tijeras-lagarto-spock/" target="_blank" >Piedra, papel, tijeras, lagarto, Spock</a>
-                </div>
-              </div>
-              <div class = "portfolio-item padd-15" data-category = "html-css" >
-                <div class = "portfolio-item-inner shadow-dark" >
-                  <div class = "portfolio-img" >
-                    <img src = "https://i.postimg.cc/KzsNn5f1/Google-Clone.png" alt = "google clone" >
-                  </div>
-                  <div class = "portfolio-info" >
-                    <h4>Google Clone</h4>
-                    <div class = "icon" ><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-                <div class = "portfolio-link-container" >
-                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Google-Clone/" target="_blank" >Google Clone</a>
-                </div>
-              </div>
-              <div class = "portfolio-item padd-15" data-category = "html-css" >
-                <div class = "portfolio-item-inner shadow-dark" >
-                  <div class = "portfolio-img" >
-                    <img src = "https://i.postimg.cc/V6G8n22X/M-ster-en-CSS-Pedro-Calvo.png" alt = "blog" >
-                  </div>
-                  <div class = "portfolio-info" >
-                    <h4>Maquetación-Blog</h4>
-                    <div class = "icon" ><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-                <div class = "portfolio-link-container" >
-                  <a class = "portfolio-link" href ="https://pedropcq.github.io/Maquetacion-blog-html-css/" target="_blank" >Maquetación Blog</a>
-                </div>
-              </div>
-              <div class = "portfolio-item padd-15" data-category = "php-mysql" >
-                <div class = "portfolio-item-inner shadow-dark" >
-                  <div class = "portfolio-img" >
-                    <img src = "https://i.postimg.cc/SR8CgSRC/Apolo-Music.png" alt = "Apolo Music" >
-                  </div>
-                  <div class = "portfolio-info" >
-                    <h4>Apolo Music</h4>
-                    <div class = "icon" ><i class="fa fa-search"></i></div>
-                  </div>
-                </div>
-                <div class = "portfolio-link-container" >
-                  <a class = "portfolio-link" href ="https://pedrocalvoquesada01.000webhostapp.com/Pedro_Calvo_MII/Index.php" target="_blank" >Apolo Music</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class = "contact section" id = "contact" >
-          <div class = "container" >
-            <div class = "row" >
-              <div class = "section-title padd-15" >
-                <h2>¿Hablamos?</h2>
-              </div>
-            </div>
-            <div class = "row" >
-              <div class = "contact-info-item padd-15" >
-                <div class = "icon" ><i class = "fa fa-phone" ></i></div>
-                <h4>Puedes llamarme al</h4>
-                <p>+34 621 003 020</p>
-              </div>
-              <div class = "contact-info-item padd-15" >
-                <div class = "icon" ><i class = "fa fa-envelope" ></i></div>
-                <h4>Email</h4>
-                <p>pedrocalvoquesada@gmail.com</p>
-              </div>
-            </div>
-            <div class = "row" >
-              <form action = "#" class = "contact-form padd-15" >
-                <div class = "row" >
-                  <div class = "form-item col-6 padd-15" >
-                    <div class = "form-group" >
-                      <input type = "text" class = "form-control" placeholder = "Nombre*" >
-                    </div>
-                  </div>
-                  <div class = "form-item col-6 padd-15" >
-                    <div class = "form-group" >
-                      <input type = "text" class = "form-control" placeholder = "Email*" >
-                    </div>
-                  </div>
-                </div>
-                <div class = "row" >
-                  <div class = "form-item col-12 padd-15" >
-                    <div class = "form-group" >
-                      <input type = "text" class = "form-control" placeholder = "Asunto*" >
-                    </div>
-                  </div>
-                </div>
-                <div class = "row" >
-                  <div class = "form-item col-12 padd-15" >
-                    <div class = "form-group" >
-                      <textarea class = "form-control" placeholder = "Deja aquí tu mensaje...*" ></textarea>
-                    </div>
-                  </div>
-                </div>
-                <div class = "row" >
-                  <div class = "col-12 padd-15" >
-                    <button type = "submit" class = "btn" >Enviar Mensaje</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
-      </div>
-    </main>
-
-    <div class = "lightbox" >
-      <div class = "lightbox-content" >
-        <div class = "lightbox-close" >&times;</div>
-        <img src = "https://i.postimg.cc/BQBmzJ7c/Weather-App.png" alt = "" class = "lightbox-img" onclick = "nextItem();" >
-        <div class = "lightbox-caption" >
-          <div class = "caption-text" ></div>
-          <div class = "caption-counter" ></div>
-        </div>
-      </div>
-      <div class = "lightbox-controls" >
-        <div class = "prev-item" onclick = "prevItem();" ><i class = "fa fa-angle-left" ></i></div>
-        <div class = "next-item" onclick = "nextItem();" ><i class = "fa fa-angle-right" ></i></div>
-      </div>
-    </div>
-
-    <div class = "style-switcher" >
-      <div class = "toggle-style-switcher" >
-        <i class = "fa fa-cog fa-spin" ></i>
-      </div>
-      <h5>Style Switcher</h5>
-      <ul>
-        <li><a href = "javascript:void(0);" title = "red" style = "background-color: #ec1839" onclick="setActiveStyle('red')" ></a></li>
-        <li><a href = "javascript:void(0);" title = "blue" style = "background-color: #2196f3" onclick="setActiveStyle('blue')" ></a></li>
-        <li><a href = "javascript:void(0);" title = "orange" style = "background-color: #fa5b0f" onclick="setActiveStyle('orange')" ></a></li>
-        <li><a href = "javascript:void(0);" title = "yellow" style = "background-color: #ffb400" onclick="setActiveStyle('yellow')" ></a></li>
-        <li><a href = "javascript:void(0);" title = "green " style = "background-color: #72b626" onclick="setActiveStyle('green')" ></a></li>
-      </ul>
-      <h5>Body Skin</h5>
-      <label>
-        <input type = "radio" class = "body-skin" name = "body-style" value = "light" checked >Light
-      </label>
-      <label>
-        <input type = "radio" class = "body-skin" name = "body-style" value = "dark" >Dark
-      </label>
-    </div>
-
-  <script type = "text/javascript" src = "js/main.js" charset = "utf-8" ></script>
-  <script type = "text/javascript" src = "js/portfolio-filter.js" charset = "utf-8" ></script>
-  <script type = "text/javascript" src = "js/styleSwitcher.js" charset = "utf-8" ></script>
-  </body>
+        <script type="text/javascript" src="js/main.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/portfolio-filter.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/styleSwitcher.js" charset="utf-8"></script>
+    </body>
 </html>
